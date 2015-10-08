@@ -1,0 +1,14 @@
+{
+    "name": "Percentage HudSuspicion",
+    "description": "Show your current suspicion level as a percentage",
+    "authors": "cjur3, djmattyg007",
+    "contact": "https://github.com/djmattyg007/Payday2-PercentageHudSuspicion",
+    "version": "1.0.0",
+    "priority": 0,
+    "hooks": [
+        {
+            "hook_id": "lib/managers/hud/hudsuspicion",
+            "script_path": "HUDSuspicion.lua"
+        }
+    ]
+}
